@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 12px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.searchFields{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 100vh;
+    margin-top: 30px;
+}
+.threeFields{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+}
+.dropdownHeading{
+    color: rgb(107, 107, 107);
+    font-weight: 900;
+}
+#yearDropBtn, #langDropBtn, #ratingDropBtn{
+    border-radius: 3px;
+    border: 1px solid rgba(107, 107, 107, 0.473);
+    width: 100%;
+    height: 2rem;
+    margin-top: 5px;
+
+}
+#yearDropBtn{
+    padding: 10px;
+}
+#yearDropdown, #langDropdown, #ratingDropdown{
+    width: 30%;
+    margin: auto;
+    
+}
+/* #langDropdown{
+    margin-left: auto;
+} */
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+#searchBtn{
+    margin: 10px;
+    padding: 5px 20px;
+    border: none;
+    border: 1px solid rgba(107, 107, 107, 0.473);
+    border-radius: 5px;
+}
+#searchBtn:hover{
+    transition: 300ms;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.movieListHead{
+    border-top: 1px solid rgba(107, 107, 107, 0.329);
+    border-bottom: 1px solid rgba(107, 107, 107, 0.329);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    display: flex;
+    color: rgb(107, 107, 107);
+    
+}
+
+.movieHeading{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
+.small{
+    width: 10%;
+    text-align: center;
+}
+.large{
+    width: 80%;
+}
+.movieItem{
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid rgba(107, 107, 107, 0.329);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.movieTitle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(52, 122, 187);
+    margin-bottom: 10px;
+}
+.rate{
+    border-radius: 4px;
+    padding: 2px;
+    border: 1px solid rgba(107, 107, 107, 0.473);
+    width: 6rem;
+    text-align: center;
+}
+.center {
+    width: 100%;
+    text-align: center;
+}

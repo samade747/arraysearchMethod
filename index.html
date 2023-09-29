@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap" rel="stylesheet">
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Movie Recommendation App</title>
+</head>
+<body>
+    <main>
+    <section class="searchFields">
+        <div class="threeFields">
+          <div id="ratingDropdown">
+          <h4 class="dropdownHeading">RATING</h4>
+          <select id="ratingDropBtn">
+            <option value="6">All</option>
+            <option value="7">Above 7.0</option>
+            <option value="7.2">Above 7.2</option>
+            <option value="7.6">Above 7.6</option>
+            <option value="8">Above 8.0</option>
+            <option value="8.2">Above 8.2</option>
+          </select>
+        </div>
+    
+              <div id="yearDropdown">
+                <h4 class="dropdownHeading">YEAR</h4>
+                <input 
+                id="yearDropBtn"
+                type="text"
+                placeholder="Enter Year..."                
+                >
+                
+              </div>
+    
+              <div id="langDropdown">
+                <h4 class="dropdownHeading">LANGUAGE</h4>
+                <select id="langDropBtn">
+                  <option value="">All</option>
+                  <option value="English">English</option>
+                  <option value="French">French</option>
+                  <option value="Spanish">Spanish</option>
+                  <option value="Japanese">Japanese</option>
+                  <option value="Korean">Korean</option>
+                  <option value="Cantonese">Cantonese</option>
+                  <option value="Mandarin">Mandarin</option>
+                  <option value="Portuguese">Portuguese</option>
+                  <option value="Turkish">Turkish</option>
+                  <option value="Polish">Polish</option>
+                  <option value="Persian">Persian</option>
+                  <option value="Telugu">Telugu</option>
+                  <option value="Italian">Italian</option>
+                  <option value="Danish">Danish</option>
+                </select>
+              </div>
+        </div>
+
+        
+          <!-- <div class="btnDiv">
+            <button id="searchBtn">Search</button>
+          </div> -->
+          <div>
+            <ul class="movieListHead">
+              <li class="movieHeading small">S.no</li>
+              <li class="movieHeading large">MOVIE</li>
+              <li class="movieHeading small">YEAR</li>
+            </ul>
+            <div id=searchedMovies>
+              
+            </div>
+          </div>
+    </section>
+
+    </main>
+
+    
+    
+      
+    
+</body>
+</html>
